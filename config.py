@@ -1,5 +1,6 @@
 from configparser import ConfigParser
 
+# You should use database.ini, but for security reason, I can't include it in repo, please find database.itu as references
 def load_config(filename='database.ini', section='postgresql'):
     parser = ConfigParser()
     parser.read(filename)
