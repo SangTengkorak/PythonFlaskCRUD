@@ -1,0 +1,16 @@
+- Please create required database in postgresql.
+Login to postgresql as capable admin: 
+# psql -U USERNAME -h HOST 
+postgres=# CREATE DATABASE todolist;
+
+- Run python3 in virtual environment.
+- Install python3 virtual environment first.
+# pip3 install virtualenv
+# python3 -m venv YOURVIRTUALENVNAME
+# pip3 install -r requirements.txt
+
+- Run init_db.py to create initial table.
+# python3 init_db.py
+
+- Run the app with app.py
+# python3 app.py
